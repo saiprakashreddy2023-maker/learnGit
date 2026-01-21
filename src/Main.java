@@ -2,9 +2,18 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        // im chnaginging the statemnet here
-        System.out.printf("Hello welcome to github");
-	//I am changed here
+        System.out.print("Enter number of terms: ");
+        int n = sc.nextInt();
 
+        int a = 0, b = 1;
+
+        System.out.print("Fibonacci Series: ");
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print(a + " ");
+            int c = a + b;
+            a = b;
+            b = c;
         }
     }
+}
