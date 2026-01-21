@@ -14,6 +14,13 @@ public class Main {
             int c = a + b;
             a = b;
             b = c;
+        System.out.printf("Hello and welcome!");
+        // I am working on the feature changes
+        for (int k  = 1; k <= 5; k++) {
+            System.out.println("i = " + k);
+        }
+        for (int j = 1; j <= 5; j++) {
+            System.out.println("i = " +j);
         }
     }
 }
